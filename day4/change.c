@@ -3,11 +3,11 @@
 int main() {
     int a, b;
     printf("enter two numbers:");
-    scanf("%d %d", &a, &b);
-    a = a + b; 
-    b = a - b; 
-    a = a - b; 
-    printf("After swap: %d %d \n", a, b);   
+    scanf("%d %d", &a, &b);// if a and b are 7 and 3
+    a = a + b;  // then here now a value is 10
+    b = a - b;  // and here b value is now 7
+    a = a - b;  // and now again a value is 3
+    printf("After swap: %d %d \n", a, b);   // this will print 3 and 7
     return 0;
 }
 /*

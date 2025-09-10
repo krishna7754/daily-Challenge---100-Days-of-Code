@@ -5,7 +5,7 @@ int main() {
     printf("enter your no. ");
     scanf("%d", &n);
 
-    for(i=n; i>=1; i--) {
+    for(i=n; i>=1; i--) {// or for(i=1; i<=n; i++)
         fact *= i;
     }
     printf("%d\n", fact);

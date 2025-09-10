@@ -17,7 +17,7 @@ int main() {
         printf("a is the largest\n");
     } else if (b > a && b > c) {
         printf("b is the largest\n");
-    } else if (c > a && c > b) {
+    } else {
         printf("c is the largest\n");
     }
     return 0;

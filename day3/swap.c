@@ -2,12 +2,12 @@
 
 #include <stdio.h>
 int main() {
-    int a, b, temp;
+    int a, b, c;
     printf("enter two numbers:");
     scanf("%d %d", &a, &b);
-    temp = a;
+    c = a;
     a = b;
-    b = temp;
+    b = c;
     printf("After swap: %d %d \n", a, b);   
     return 0;
 }      

@@ -4,8 +4,8 @@ int main() {
     int year;
     printf("enter your year : " ,year );
     scanf("%d", &year);
-    if((year % 4 == 0 && year % 100 != 0) || (year % 400 ==0)) {
-        printf("it is a leap year\n");
+    if((year % 4 == 0 && year % 100 != 0) || (year % 400 ==0)) {  // the formula could be shortened but due to 
+        printf("it is a leap year\n");                           // 1900 year as it is divisible by 4 but not a leap year
     } else {
         printf("Not a leap year\n");    
 

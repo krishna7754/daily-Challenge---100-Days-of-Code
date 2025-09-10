@@ -2,8 +2,10 @@
 #include<stdio.h>
 int main() {
     float cp, sp, profit, loss;
-    printf("Enter the cost price and selling price: ");
-    scanf("%f %f", &cp, &sp);
+    printf("Enter the cost price :" );
+    scanf("%f ", &cp);
+    printf("enter the selling price: ");
+    scanf("%f ", &sp);
 
     if (sp > cp) {
         profit = sp - cp;

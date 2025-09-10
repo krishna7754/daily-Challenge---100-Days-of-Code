@@ -8,12 +8,11 @@ int main() {
     scanf("%d", &length);
     printf("enter breadth of rectangle: ");
     scanf("%d", &breadth);
-
-    area = length * breadth;
-    perimeter = 2 * (length + breadth);
-
-    printf("area = %d and perimeter = %d\n", area, perimeter);
+    
+    printf("area = %d and perimeter = %d\n",(length*breadth), 2*(length +breadth) );
     return 0;
+
+
 }
 /*
 Sample Test Cases:

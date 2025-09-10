@@ -7,7 +7,7 @@ int main() {
     printf("enter temperature in celcius: ");
     scanf("%d", &celcius);      
     fahhrenheit = (celcius * 9/5) + 32; 
-    printf("Fahrenheit=%f \n", fahhrenheit);
+    printf("Fahrenheit= %.2f \n", fahhrenheit);// %.2f will print the float value with 2 decimal point.
     return 0;  
 }
 /*
